@@ -45,7 +45,6 @@ def watcher():
 				print (i + " Was created in " + path)
 			for i in ls:
 				print (i + " Was deleted from " + path)
-			print ("WOIJHFFFFFFFFFFF")
 		except KeyboardInterrupt:
 			print ("[*] Ctrl+c detected,closing.")
 			ilog("Ctrl+c detected, closing application.")
